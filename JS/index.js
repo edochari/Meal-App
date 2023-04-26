@@ -47,45 +47,8 @@ const display=(meals)=>{
 }
 
 
-// function myFunction(){
-//     var input= document.getElementById('take-input').value;
-//     const url=`https://www.themealdb.com/api/json/v1/1/search.php?s=${input}`;
-//     getdata();
-//     async function getdata(){
-//         const response=await fetch(url);
-    
-//         const data=await response.json();
 
-//         var output=document.getElementById('output');
-//         data.meals.forEach(function(element) {
-           
-//             var idMeal = document.createElement('div');
-//             var strMeal = document.createElement('a');
-//             var favourite_button=document.createElement('button');
-//             var button=document.createTextNode("add");
-//             favourite_button.appendChild(button);
-//             strMeal.href="./my_details.html";
-//             idMeal.innerHTML = element.idMeal;
-//             strMeal.innerHTML = element.strMeal;
-//             favourite_button.addEventListener('click',function(){
-//                 console.log("pushing");
-//                 favourite_list.push(element);
-//                 console.log(favourite_list);
-//             })
-       
-//             output.appendChild(idMeal);
-//             output.appendChild(strMeal);
-//             output.appendChild(favourite_button);
 
-            
-           
-//          });
-//     }
-//     console.log("input=",input);
-//     favourite_list.forEach((el)=>{
-//         console.log("elements",el);
-//     })
-// }
 
 
 mealsList.addEventListener('click',(e)=>{

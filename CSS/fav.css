@@ -1,3 +1,7 @@
+body{
+  background-color: lightgoldenrodyellow;
+}
+
 li{
     list-style: none;
     padding: 10px;

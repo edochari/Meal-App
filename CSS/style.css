@@ -2,7 +2,7 @@
 
 /* App heading */
 #heading{
-    color:coral;
+    color:aqua;
 }
 
 
@@ -21,7 +21,10 @@ form{
 
   body{
     text-align:center;
-    background-image: url("https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?w=1060&t=st=1672812558~exp=1672813158~hmac=42906b4e58d312a7a8af5aae6145396dc56dd14e9d719af177595565d71e1199");
+    background-image: url("https://thumbs.dreamstime.com/b/asian-food-background-various-ingredients-rustic-stone-top-view-vietnam-thai-cuisine-148762904.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
   .nav {
@@ -36,7 +39,9 @@ form{
   }
 
   #fav-meal{
-    color:red;
+    margin-left: 50rem;
+    color:aqua;
+    font-size: xx-large;
   }
   .search-container input {
     height: 43px;
@@ -49,13 +54,14 @@ form{
     box-sizing: border-box;
   }
   .search-container {
+    margin-top:2rem;
     width: 40%;
     position: relative;
   }
 
   #search-btn {
     background: #f2711c;
-    height: 43px;
+    height: 1rem;
     color: #fff;
     border: none;
     font-size: 15px;
@@ -128,12 +134,19 @@ form{
   .meal-name{
       display: flex;
       color: white;
+     
       
+      
+  }
+
+  .recipe-name{
+    margin-left:3rem;
+    padding-left:3rem;
   }
   .meal-name i{
       font-size: 1.5rem;
-      margin-top:17px;
-      margin-left: 15px;
+      
+      margin-left: 4rem; 
       cursor: pointer;
   }
 
